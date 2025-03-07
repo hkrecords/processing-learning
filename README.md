@@ -90,3 +90,10 @@ We can use arithmetic operations in `mouseX`, `mouseY`, `height` and `width`.
 ## mousePressed()
 
 It is the event which occurs when mouse is clicked or pressed.
+
+## random()
+
+Generates random numbers.
+
+- If only one parameter is passed, returns a float between zero and the value of the high parameter.
+- If two parameters are specified, returns a float with a value between the two values.
