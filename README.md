@@ -66,3 +66,27 @@ Mainly three functions are used to specify colors.
 - **RGBA Colors** - Red, Green, Blue, Alpha. *Alpha* is used to set *transparency*. Ranges from 0 to 255.
 
 `noStroke()`, `noFill()` - Fully transparent *stroke* and *fill*.
+
+
+## Program Flow
+
+In processing, flow is defined by two fundamental concepts:
+
+- **Setup** - The code runs once when the program starts.
+
+- **Draw** - The code runs continuously from top to bottom until the program is stopped.
+
+## mouseX & mouseY
+
+The system variables `mouseX` and `mouseY` always contains the current horizontal and vertical coordinates of the mouse.
+
+- `height` - Refers to the height of the window.
+- `width` - Refers to the width of the window.
+
+We can use arithmetic operations in `mouseX`, `mouseY`, `height` and `width`.
+
+**Double Buffer Animation** - A technique in computer graphics that uses *two memory buffers* to eliminate flickering and tearing artifacts during animation, ensuring a *smoother visual experience* by drawing to one buffer while displaying the other.
+
+## mousePressed()
+
+It is the event which occurs when mouse is clicked or pressed.
